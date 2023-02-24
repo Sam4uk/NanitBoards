@@ -65,8 +65,8 @@
           "help": {
             "online": "sam4uk.site"
           },
-          "url": "{todo}Nanit.zip",
-          "archiveFileName": "{todo}Nanit.zip",
+          "url": "https://github.com/Sam4uk/NanitBoards/raw/develop/Nanit.zip",
+          "archiveFileName": "Nanit.zip",
           "boards": [
             {
               "name": "Discovery"
