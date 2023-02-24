@@ -1,0 +1,80 @@
+# See: https://arduino.github.io/arduino-cli/latest/platform-specification/
+
+##############################################################
+
+nanit.name=Nanit
+
+nanit.vid.0=0x2341
+nanit.pid.0=0x0010
+nanit.vid.1=0x2341
+nanit.pid.1=0x0042
+nanit.vid.2=0x2A03
+nanit.pid.2=0x0010
+nanit.vid.3=0x2A03
+nanit.pid.3=0x0042
+nanit.vid.4=0x2341
+nanit.pid.4=0x0210
+nanit.vid.5=0x2341
+nanit.pid.5=0x0242
+nanit.upload_port.0.vid=0x2341
+nanit.upload_port.0.pid=0x0010
+nanit.upload_port.1.vid=0x2341
+nanit.upload_port.1.pid=0x0042
+nanit.upload_port.2.vid=0x2A03
+nanit.upload_port.2.pid=0x0010
+nanit.upload_port.3.vid=0x2A03
+nanit.upload_port.3.pid=0x0042
+nanit.upload_port.4.vid=0x2341
+nanit.upload_port.4.pid=0x0210
+nanit.upload_port.5.vid=0x2341
+nanit.upload_port.5.pid=0x0242
+nanit.upload_port.6.board=mega
+
+nanit.upload.tool=avrdude
+nanit.upload.tool.default=avrdude
+nanit.upload.tool.network=arduino_ota
+nanit.upload.maximum_data_size=8192
+
+nanit.bootloader.tool=avrdude
+nanit.bootloader.tool.default=avrdude
+nanit.bootloader.low_fuses=0xFF
+nanit.bootloader.unlock_bits=0x3F
+nanit.bootloader.lock_bits=0x0F
+
+nanit.build.f_cpu=16000000L
+nanit.build.core=arduino
+nanit.build.variant=Nanit
+nanit.build.mcu=atmega2560
+# default board may be overridden by the cpu menu
+nanit.build.board=AVR_MEGA2560
+
+## Discovery
+## -------------------------
+nanit.menu.cpu.atmega2560=Discovery
+
+nanit.menu.cpu.atmega2560.upload.protocol=wiring
+nanit.menu.cpu.atmega2560.upload.maximum_size=253952
+nanit.menu.cpu.atmega2560.upload.speed=115200
+
+nanit.menu.cpu.atmega2560.bootloader.high_fuses=0xD8
+nanit.menu.cpu.atmega2560.bootloader.extended_fuses=0xFD
+nanit.menu.cpu.atmega2560.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
+
+# nanit.menu.cpu.atmega2560.build.mcu=atmega2560
+# nanit.menu.cpu.atmega2560.build.board=AVR_MEGA2560
+
+## OTHER CPU
+## -------------------------
+# nanit.menu.cpu.atmega1280=For test
+# 
+# nanit.menu.cpu.atmega1280.upload.protocol=arduino
+# nanit.menu.cpu.atmega1280.upload.maximum_size=126976
+# nanit.menu.cpu.atmega1280.upload.speed=57600
+# 
+# nanit.menu.cpu.atmega1280.bootloader.high_fuses=0xDA
+# nanit.menu.cpu.atmega1280.bootloader.extended_fuses=0xF5
+# nanit.menu.cpu.atmega1280.bootloader.file=atmega/ATmegaBOOT_168_atmega1280.hex
+# 
+# nanit.menu.cpu.atmega1280.build.mcu=atmega1280
+# nanit.menu.cpu.atmega1280.build.board=AVR_MEGA
+# 
