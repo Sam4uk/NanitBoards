@@ -12,4 +12,5 @@ jobs:
           args: zip -qq -r NanitRobotsBoards.zip Nanit
       - uses: actions/upload-artifact@v2
         with:
-          name: ./NanitRobotsBoards.zip
+          name: NanitRobotsBoards.zip
+          path: " "
