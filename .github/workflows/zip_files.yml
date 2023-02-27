@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - run: echo "sfdsf" >> test.file
       - uses: montudor/action-zip@v1
         with:
           args: zip -qq -r NanitRobotsBoards.zip Nanit
