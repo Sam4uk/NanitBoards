@@ -1,5 +1,12 @@
+#############################################################
+#                                                           #
+# @file:    .gitignore                                      #
+# @author:  Sam4uk<sam4uk.site@gmail.com>                   #
+# @date:    28 Feb 2023                                     #
+# @licence: MIT                                             #
+#                                                           #
+############################################################# 
 .vscode
 !.gitignore
-# розробка менеджера плат 9:00 11:50
 # //todo ланцюжок інструментів для мак, лінукс та вінди
-# 
+# https://raw.githubusercontent.com/Sam4uk/NanitBoards/develop/package_NanitRobot_index.json
