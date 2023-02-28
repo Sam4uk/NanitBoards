@@ -61,21 +61,24 @@
         {
           "name": "Nanit",
           "architecture": "avr",
-          "version": "3.1",
+          "version": "0.0.1",
           "help": {
-            "online": "sam4uk.site"
+            "online": "https://sam4uk.site"
           },
           "url": "https://github.com/Sam4uk/NanitBoards/raw/develop/Nanit.zip",
           "archiveFileName": "Nanit.zip",
           "boards": [
             {
-              "name": "Discovery"
+              "name": "Nanit Discovery 2.0"
             },
             {
-              "name": "Nanit Creator"
+              "name": "Nanit Discovery 3"
             },
             {
-              "name": "Nanit Pro"
+              "name": "Nanit Discovery 3.1"
+            },
+            {
+              "name": "Nanit Smart Home"
             }
           ],
           "toolsDependencies": [

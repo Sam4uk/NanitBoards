@@ -19,7 +19,7 @@ nanit_discovery.vid.0=0x1a86
 nanit_discovery.pid.0=0x7523
 nanit_discovery.upload_port.0.vid=0x1a86
 nanit_discovery.upload_port.0.pid=0x7523
-nanit_discovery.upload_port.6.board=nanit_discovery
+nanit_discovery.upload_port.1.board=mega
 
 nanit_discovery.upload.tool=avrdude
 nanit_discovery.upload.tool.default=avrdude
@@ -54,7 +54,7 @@ nanit_smart_home.vid.0=0x1a86
 nanit_smart_home.pid.0=0x7523
 nanit_smart_home.upload_port.0.vid=0x1a86
 nanit_smart_home.upload_port.0.pid=0x7523
-nanit_smart_home.upload_port.6.board=nanit_smart_home
+nanit_smart_home.upload_port.1.board=mega
 
 nanit_smart_home.upload.tool=avrdude
 nanit_smart_home.upload.tool.default=avrdude
